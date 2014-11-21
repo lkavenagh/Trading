@@ -5,8 +5,7 @@ setwd('C:/Users/Luke/Documents/GitHub/Trading/')
 
 base_url = "http://www.google.com/finance/historical?output=csv&q="
 
-start_date = as.Date('2013-11-20')
-# start_date = Sys.Date()-7
+start_date = Sys.Date()-7
 
 # Connect to db
 drv=dbDriver("PostgreSQL")
